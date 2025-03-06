@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer&display=swap');
+
+.App {
+  font-family: 'Noto Sans Khmer', Arial, sans-serif; /* Ensure Khmer font support */
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem;
+  border-bottom: 1px solid #d4d4d4;
+  outline: none;
+  font-family: 'Noto Sans Khmer', Arial, sans-serif;
+}
+
+.input-field:focus {
+  border-bottom-color: #3b82f6; /* Tailwind blue-500 */
+}
+
+.error {
+  color: #ef4444; /* Tailwind red-500 */
+  font-size: 0.875rem; /* Tailwind text-sm */
+  margin-top: 0.25rem; /* Tailwind mt-1 */
+}
